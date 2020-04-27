@@ -1,0 +1,168 @@
+*,
+*::before,
+*::after {
+    border: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#main-navbar {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navlink {
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    margin: 15px 10px 15px 10px;
+}
+
+#navlink:hover {
+    text-decoration: underline;
+}
+
+#main-navbar-left {
+    display: flex;
+    font-size: 14px;
+}
+
+#main-navbar-right {
+    display: flex;
+    font-size: 14px;
+}
+
+.material-icon.app, .material-icon.acc {
+    height: 50px;
+    width: 50px;
+}
+
+#main-logo {
+    height: 31vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#main-logo-container {
+    height: 15vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#main-searchbar {
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#main-searchbar-container {
+    height: 8vh;
+    width: 42vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2rem;
+    border: 1px solid rgba(175, 174, 174, 0.4);
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-searchbar-container:hover {
+    box-shadow: 0 0 5px rgba(175, 174, 174, 0.4);
+}
+
+#main-searchbar-textbox {
+    width: 90%;
+    height: 90%;
+    font-size: 18px;
+}
+#main-searchbar-textbox:focus{
+    outline: none;
+}
+
+.material-icon.search, .material-icon.mic {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    padding: 10px;
+}
+
+#main-buttons {
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(240, 236, 236);
+    margin: 7px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.main-button:hover {
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.main-button:active, .main-button:focus {
+    outline: none;
+}
+
+#main-tip {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#white-space {
+    height: 12vh;
+}
+
+#main-footer {
+    height: 14vh;
+    width: 100%;
+    display: block;
+}
+
+#main-footer-location, #main-footer-links  {
+    display: block;
+    height: 7vh;
+    width: 100%;
+    border: 1px solid rgba(230, 230, 230, 0.6);
+    background-color: rgba(230, 230, 230, 0.4);
+}
+
+#main-location-text {
+    display: flex;
+    font-size: 14px; 
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+#main-footer-links {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
