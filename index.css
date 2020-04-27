@@ -165,4 +165,5 @@ a:hover {
     display: flex;
     font-size: 14px;
     justify-content: space-between;
+    padding-top: 10px;
 }
